@@ -1,0 +1,306 @@
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+[I 2024-06-06 13:13:15,412] A new study created in memory with name: no-name-dd76eb11-985f-4ab9-bde7-3396d6573217
+TBB Warning: The number of workers is currently limited to 15. The request for 63 workers is ignored. Further requests for more workers will be silently ignored until the limit changes.
+
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:13:34,047] Trial 0 finished with value: 0.612754144960781 and parameters: {'learning_rate': 0.0023383288549748368, 'depth': 8, 'l2_leaf_reg': 0.010272584791226185, 'colsample_bylevel': 0.09512363121615267, 'min_data_in_leaf': 91}. Best is trial 0 with value: 0.612754144960781.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:13:38,272] Trial 1 finished with value: 0.6347392830700206 and parameters: {'learning_rate': 0.01815196597074022, 'depth': 1, 'l2_leaf_reg': 0.09007983368780009, 'colsample_bylevel': 0.4423841139731589, 'min_data_in_leaf': 4}. Best is trial 0 with value: 0.612754144960781.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:13:43,853] Trial 2 finished with value: 0.5832995994599899 and parameters: {'learning_rate': 0.07427037800756844, 'depth': 4, 'l2_leaf_reg': 0.04835797562860609, 'colsample_bylevel': 0.23089555535405226, 'min_data_in_leaf': 68}. Best is trial 2 with value: 0.5832995994599899.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:13:47,981] Trial 3 finished with value: 0.6240012802157103 and parameters: {'learning_rate': 0.051266788626703155, 'depth': 1, 'l2_leaf_reg': 0.028992531915799688, 'colsample_bylevel': 0.23698674935607278, 'min_data_in_leaf': 68}. Best is trial 2 with value: 0.5832995994599899.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:14:26,422] Trial 4 finished with value: 0.562399666730086 and parameters: {'learning_rate': 0.009815002968109523, 'depth': 10, 'l2_leaf_reg': 0.013648195500625588, 'colsample_bylevel': 0.3569984435566004, 'min_data_in_leaf': 82}. Best is trial 4 with value: 0.562399666730086.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:14:30,633] Trial 5 finished with value: 0.6555838805524247 and parameters: {'learning_rate': 0.0019916455921623597, 'depth': 2, 'l2_leaf_reg': 0.08012665793191687, 'colsample_bylevel': 0.37695153868806075, 'min_data_in_leaf': 25}. Best is trial 4 with value: 0.562399666730086.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:15:21,255] Trial 6 finished with value: 0.5629760299150988 and parameters: {'learning_rate': 0.008589630007331444, 'depth': 8, 'l2_leaf_reg': 0.056180944900304626, 'colsample_bylevel': 0.6874279973535518, 'min_data_in_leaf': 47}. Best is trial 4 with value: 0.562399666730086.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:16:06,819] Trial 7 finished with value: 0.5662220217496957 and parameters: {'learning_rate': 0.01338729403708356, 'depth': 8, 'l2_leaf_reg': 0.035350039481082465, 'colsample_bylevel': 0.3872752552127453, 'min_data_in_leaf': 93}. Best is trial 4 with value: 0.562399666730086.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:17:18,018] Trial 8 finished with value: 0.5980504131827529 and parameters: {'learning_rate': 0.0014715473612515284, 'depth': 9, 'l2_leaf_reg': 0.014540537474639856, 'colsample_bylevel': 0.868404199344184, 'min_data_in_leaf': 17}. Best is trial 4 with value: 0.562399666730086.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:18:08,412] Trial 9 finished with value: 0.6134288676930376 and parameters: {'learning_rate': 0.0010243048392992312, 'depth': 8, 'l2_leaf_reg': 0.011985570329038955, 'colsample_bylevel': 0.6485375328138647, 'min_data_in_leaf': 90}. Best is trial 4 with value: 0.562399666730086.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:18:15,671] Trial 10 finished with value: 0.589654063024705 and parameters: {'learning_rate': 0.005008019660538486, 'depth': 5, 'l2_leaf_reg': 0.019567014505796274, 'colsample_bylevel': 0.9957644750021645, 'min_data_in_leaf': 67}. Best is trial 4 with value: 0.562399666730086.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:19:13,507] Trial 11 finished with value: 0.5634886474728784 and parameters: {'learning_rate': 0.006523187700778703, 'depth': 10, 'l2_leaf_reg': 0.053848414753870776, 'colsample_bylevel': 0.6609427603721749, 'min_data_in_leaf': 41}. Best is trial 4 with value: 0.562399666730086.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:20:04,609] Trial 12 finished with value: 0.5617305136011743 and parameters: {'learning_rate': 0.02604991243225273, 'depth': 10, 'l2_leaf_reg': 0.025332323353983065, 'colsample_bylevel': 0.5847423487438692, 'min_data_in_leaf': 48}. Best is trial 12 with value: 0.5617305136011743.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:20:53,994] Trial 13 finished with value: 0.5611298247425711 and parameters: {'learning_rate': 0.029802738727246002, 'depth': 10, 'l2_leaf_reg': 0.02139749746366072, 'colsample_bylevel': 0.5435301351237043, 'min_data_in_leaf': 35}. Best is trial 13 with value: 0.5611298247425711.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:21:02,444] Trial 14 finished with value: 0.5699391679041345 and parameters: {'learning_rate': 0.029911951137769115, 'depth': 6, 'l2_leaf_reg': 0.021032790574490264, 'colsample_bylevel': 0.5413573241274813, 'min_data_in_leaf': 37}. Best is trial 13 with value: 0.5611298247425711.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:21:11,138] Trial 15 finished with value: 0.5681956529429688 and parameters: {'learning_rate': 0.032315523715095544, 'depth': 6, 'l2_leaf_reg': 0.02333867240503296, 'colsample_bylevel': 0.7990258706049018, 'min_data_in_leaf': 56}. Best is trial 13 with value: 0.5611298247425711.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:22:01,319] Trial 16 finished with value: 0.5613714645671946 and parameters: {'learning_rate': 0.023922834514417818, 'depth': 10, 'l2_leaf_reg': 0.03428007023163974, 'colsample_bylevel': 0.5225677743013132, 'min_data_in_leaf': 27}. Best is trial 13 with value: 0.5611298247425711.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:22:19,165] Trial 17 finished with value: 0.5806216344563647 and parameters: {'learning_rate': 0.07606431478493272, 'depth': 7, 'l2_leaf_reg': 0.03646625542199057, 'colsample_bylevel': 0.7950797830562896, 'min_data_in_leaf': 27}. Best is trial 13 with value: 0.5611298247425711.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:22:24,886] Trial 18 finished with value: 0.5850291994077054 and parameters: {'learning_rate': 0.04058508009878788, 'depth': 4, 'l2_leaf_reg': 0.017505285002610504, 'colsample_bylevel': 0.4771062604892626, 'min_data_in_leaf': 6}. Best is trial 13 with value: 0.5611298247425711.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:23:16,002] Trial 19 finished with value: 0.565643241487666 and parameters: {'learning_rate': 0.0209698427887609, 'depth': 9, 'l2_leaf_reg': 0.04250971676211194, 'colsample_bylevel': 0.23756021115588588, 'min_data_in_leaf': 29}. Best is trial 13 with value: 0.5611298247425711.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:24:35,130] Trial 20 finished with value: 0.5756585689612203 and parameters: {'learning_rate': 0.0036985849757674924, 'depth': 9, 'l2_leaf_reg': 0.02887063276412716, 'colsample_bylevel': 0.5807725458263004, 'min_data_in_leaf': 15}. Best is trial 13 with value: 0.5611298247425711.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:25:25,531] Trial 21 finished with value: 0.5585488503225968 and parameters: {'learning_rate': 0.02100916156860535, 'depth': 10, 'l2_leaf_reg': 0.025739554578348516, 'colsample_bylevel': 0.5870539418680399, 'min_data_in_leaf': 54}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:26:27,599] Trial 22 finished with value: 0.5626414548147848 and parameters: {'learning_rate': 0.014780681584520377, 'depth': 10, 'l2_leaf_reg': 0.01708111447128434, 'colsample_bylevel': 0.7408619998047625, 'min_data_in_leaf': 56}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:27:46,938] Trial 23 finished with value: 0.5644951907853253 and parameters: {'learning_rate': 0.04890008284307109, 'depth': 9, 'l2_leaf_reg': 0.02537049450781847, 'colsample_bylevel': 0.5009586273541015, 'min_data_in_leaf': 35}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:28:06,860] Trial 24 finished with value: 0.5758786196266564 and parameters: {'learning_rate': 0.09524724338238541, 'depth': 7, 'l2_leaf_reg': 0.03530286493394921, 'colsample_bylevel': 0.5939029059287986, 'min_data_in_leaf': 16}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:28:49,835] Trial 25 finished with value: 0.5620774120856434 and parameters: {'learning_rate': 0.013373296236756618, 'depth': 10, 'l2_leaf_reg': 0.030437509542601115, 'colsample_bylevel': 0.4341317650592139, 'min_data_in_leaf': 59}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:29:53,476] Trial 26 finished with value: 0.5619521501158206 and parameters: {'learning_rate': 0.023742487189819163, 'depth': 9, 'l2_leaf_reg': 0.042683240066989925, 'colsample_bylevel': 0.30936973328152106, 'min_data_in_leaf': 42}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:30:12,895] Trial 27 finished with value: 0.5643917674887337 and parameters: {'learning_rate': 0.04046939225740245, 'depth': 7, 'l2_leaf_reg': 0.021122665485737414, 'colsample_bylevel': 0.7202767368013295, 'min_data_in_leaf': 23}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:31:02,088] Trial 28 finished with value: 0.5611467672524696 and parameters: {'learning_rate': 0.018083799180516148, 'depth': 10, 'l2_leaf_reg': 0.06383111060893948, 'colsample_bylevel': 0.5172745021437105, 'min_data_in_leaf': 80}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:31:29,603] Trial 29 finished with value: 0.5665010813007896 and parameters: {'learning_rate': 0.016166044857381868, 'depth': 8, 'l2_leaf_reg': 0.06546004796845119, 'colsample_bylevel': 0.1477009778017463, 'min_data_in_leaf': 80}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:31:43,425] Trial 30 finished with value: 0.5960042701955077 and parameters: {'learning_rate': 0.007651706222931417, 'depth': 9, 'l2_leaf_reg': 0.06616732161224878, 'colsample_bylevel': 0.06683607461885038, 'min_data_in_leaf': 76}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:32:32,067] Trial 31 finished with value: 0.5638591609293203 and parameters: {'learning_rate': 0.01156227697079132, 'depth': 10, 'l2_leaf_reg': 0.017259124908374036, 'colsample_bylevel': 0.5339246350697484, 'min_data_in_leaf': 34}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:33:28,863] Trial 32 finished with value: 0.5590256728022205 and parameters: {'learning_rate': 0.018619685590678958, 'depth': 10, 'l2_leaf_reg': 0.08712456110824837, 'colsample_bylevel': 0.6336162686938773, 'min_data_in_leaf': 42}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:34:47,405] Trial 33 finished with value: 0.563108336444777 and parameters: {'learning_rate': 0.019490122722435676, 'depth': 9, 'l2_leaf_reg': 0.09037277386299532, 'colsample_bylevel': 0.6298804183344098, 'min_data_in_leaf': 62}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:35:36,121] Trial 34 finished with value: 0.5671763304432347 and parameters: {'learning_rate': 0.034144850886620545, 'depth': 8, 'l2_leaf_reg': 0.09946731132200941, 'colsample_bylevel': 0.4274295386982626, 'min_data_in_leaf': 100}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:36:20,756] Trial 35 finished with value: 0.563179735415353 and parameters: {'learning_rate': 0.06447448877977612, 'depth': 10, 'l2_leaf_reg': 0.07175168810699037, 'colsample_bylevel': 0.464555578177725, 'min_data_in_leaf': 52}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:36:26,098] Trial 36 finished with value: 0.5919798899180374 and parameters: {'learning_rate': 0.019860710517312093, 'depth': 3, 'l2_leaf_reg': 0.08353627970650648, 'colsample_bylevel': 0.6208573635923393, 'min_data_in_leaf': 73}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:37:30,717] Trial 37 finished with value: 0.562803811020277 and parameters: {'learning_rate': 0.009971214062232768, 'depth': 9, 'l2_leaf_reg': 0.05744424819047767, 'colsample_bylevel': 0.32080149579002626, 'min_data_in_leaf': 43}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:38:34,805] Trial 38 finished with value: 0.5651735331247184 and parameters: {'learning_rate': 0.01639387369559563, 'depth': 10, 'l2_leaf_reg': 0.04268553705059117, 'colsample_bylevel': 0.7643394270748396, 'min_data_in_leaf': 64}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:38:39,443] Trial 39 finished with value: 0.6242457666622945 and parameters: {'learning_rate': 0.0532475952044841, 'depth': 1, 'l2_leaf_reg': 0.07341994058664933, 'colsample_bylevel': 0.6919089572197306, 'min_data_in_leaf': 87}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:39:31,807] Trial 40 finished with value: 0.5647771548257919 and parameters: {'learning_rate': 0.012217636742241337, 'depth': 8, 'l2_leaf_reg': 0.014450857039157607, 'colsample_bylevel': 0.5642378813773332, 'min_data_in_leaf': 51}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:40:17,379] Trial 41 finished with value: 0.5627446301585206 and parameters: {'learning_rate': 0.02566242414371322, 'depth': 10, 'l2_leaf_reg': 0.026110760354039676, 'colsample_bylevel': 0.4951299799567268, 'min_data_in_leaf': 31}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:41:02,682] Trial 42 finished with value: 0.5690702437778383 and parameters: {'learning_rate': 0.041609306520159865, 'depth': 10, 'l2_leaf_reg': 0.03380632072168126, 'colsample_bylevel': 0.507262116741542, 'min_data_in_leaf': 20}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:42:11,148] Trial 43 finished with value: 0.563560911938165 and parameters: {'learning_rate': 0.02878553715605992, 'depth': 9, 'l2_leaf_reg': 0.0513401664420242, 'colsample_bylevel': 0.40044945671554766, 'min_data_in_leaf': 9}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:43:06,168] Trial 44 finished with value: 0.5654658466134804 and parameters: {'learning_rate': 0.021352254655889833, 'depth': 10, 'l2_leaf_reg': 0.01015969622303512, 'colsample_bylevel': 0.6758151681776895, 'min_data_in_leaf': 39}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:43:58,084] Trial 45 finished with value: 0.5632046274658915 and parameters: {'learning_rate': 0.017366312020183027, 'depth': 10, 'l2_leaf_reg': 0.012098418684167882, 'colsample_bylevel': 0.6187215619313942, 'min_data_in_leaf': 45}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:45:05,893] Trial 46 finished with value: 0.5655753208773179 and parameters: {'learning_rate': 0.006546705434788332, 'depth': 9, 'l2_leaf_reg': 0.0280523177124197, 'colsample_bylevel': 0.8699244810977016, 'min_data_in_leaf': 31}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:45:53,555] Trial 47 finished with value: 0.5586959251361144 and parameters: {'learning_rate': 0.03558209810902304, 'depth': 10, 'l2_leaf_reg': 0.02222248298516128, 'colsample_bylevel': 0.5459097873352621, 'min_data_in_leaf': 22}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:46:43,408] Trial 48 finished with value: 0.572787063337607 and parameters: {'learning_rate': 0.03408550132815201, 'depth': 8, 'l2_leaf_reg': 0.02268880415227701, 'colsample_bylevel': 0.5581526055796218, 'min_data_in_leaf': 70}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:46:59,915] Trial 49 finished with value: 0.5680172902730672 and parameters: {'learning_rate': 0.05566548470928325, 'depth': 7, 'l2_leaf_reg': 0.019082500400558228, 'colsample_bylevel': 0.4468023247935904, 'min_data_in_leaf': 1}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:48:07,281] Trial 50 finished with value: 0.5626551975764481 and parameters: {'learning_rate': 0.010911442095637205, 'depth': 9, 'l2_leaf_reg': 0.02327927994437244, 'colsample_bylevel': 0.8577103704404949, 'min_data_in_leaf': 13}. Best is trial 21 with value: 0.5585488503225968.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:48:58,265] Trial 51 finished with value: 0.5584537214905743 and parameters: {'learning_rate': 0.025005266633354114, 'depth': 10, 'l2_leaf_reg': 0.020390576056814276, 'colsample_bylevel': 0.5991213381582082, 'min_data_in_leaf': 23}. Best is trial 51 with value: 0.5584537214905743.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:49:49,121] Trial 52 finished with value: 0.5564074254399323 and parameters: {'learning_rate': 0.027115288423799528, 'depth': 10, 'l2_leaf_reg': 0.01569551387044925, 'colsample_bylevel': 0.6038935914829812, 'min_data_in_leaf': 20}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:51:06,135] Trial 53 finished with value: 0.5639360879452169 and parameters: {'learning_rate': 0.03685030546031116, 'depth': 9, 'l2_leaf_reg': 0.01574391472555936, 'colsample_bylevel': 0.6544052012095444, 'min_data_in_leaf': 20}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:51:57,077] Trial 54 finished with value: 0.5620484065829279 and parameters: {'learning_rate': 0.02881804217521887, 'depth': 10, 'l2_leaf_reg': 0.01965082483889534, 'colsample_bylevel': 0.5991375161147926, 'min_data_in_leaf': 23}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:52:03,475] Trial 55 finished with value: 0.5763639761341781 and parameters: {'learning_rate': 0.04668404464961304, 'depth': 5, 'l2_leaf_reg': 0.012757819030956042, 'colsample_bylevel': 0.7038775190685854, 'min_data_in_leaf': 34}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:52:52,140] Trial 56 finished with value: 0.5659061135905032 and parameters: {'learning_rate': 0.02369491192867963, 'depth': 10, 'l2_leaf_reg': 0.02145097556909871, 'colsample_bylevel': 0.5588979822280172, 'min_data_in_leaf': 26}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:54:08,881] Trial 57 finished with value: 0.5621799462353227 and parameters: {'learning_rate': 0.014090302999836914, 'depth': 9, 'l2_leaf_reg': 0.018449938250010203, 'colsample_bylevel': 0.6477557374525226, 'min_data_in_leaf': 12}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:55:00,486] Trial 58 finished with value: 0.562178860144459 and parameters: {'learning_rate': 0.028294235097782887, 'depth': 10, 'l2_leaf_reg': 0.015909409702047798, 'colsample_bylevel': 0.5924677612444254, 'min_data_in_leaf': 19}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:55:05,116] Trial 59 finished with value: 0.5891248507460082 and parameters: {'learning_rate': 0.06375099291032343, 'depth': 3, 'l2_leaf_reg': 0.02622360023836498, 'colsample_bylevel': 0.7348115603050952, 'min_data_in_leaf': 48}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:55:58,332] Trial 60 finished with value: 0.5642166423331421 and parameters: {'learning_rate': 0.021650679968217023, 'depth': 8, 'l2_leaf_reg': 0.011186746208774764, 'colsample_bylevel': 0.5415566247933401, 'min_data_in_leaf': 30}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:56:42,946] Trial 61 finished with value: 0.565185617539384 and parameters: {'learning_rate': 0.016751855412974952, 'depth': 10, 'l2_leaf_reg': 0.020444155984819166, 'colsample_bylevel': 0.4896452355446899, 'min_data_in_leaf': 38}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:57:29,207] Trial 62 finished with value: 0.5630420109269602 and parameters: {'learning_rate': 0.0318109141522675, 'depth': 10, 'l2_leaf_reg': 0.024327717400040052, 'colsample_bylevel': 0.5295528119777486, 'min_data_in_leaf': 9}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:58:22,345] Trial 63 finished with value: 0.5645133740871854 and parameters: {'learning_rate': 0.025363510441669547, 'depth': 10, 'l2_leaf_reg': 0.01582176137773542, 'colsample_bylevel': 0.6329275560741916, 'min_data_in_leaf': 36}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:59:38,429] Trial 64 finished with value: 0.5618549763082592 and parameters: {'learning_rate': 0.018534649763084107, 'depth': 9, 'l2_leaf_reg': 0.022202157058817593, 'colsample_bylevel': 0.5834075964456826, 'min_data_in_leaf': 22}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:00:21,833] Trial 65 finished with value: 0.5668615601637383 and parameters: {'learning_rate': 0.03820060821071911, 'depth': 10, 'l2_leaf_reg': 0.028740700313602027, 'colsample_bylevel': 0.46730910397402214, 'min_data_in_leaf': 26}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:01:29,465] Trial 66 finished with value: 0.5675087333424671 and parameters: {'learning_rate': 0.04310447152577296, 'depth': 9, 'l2_leaf_reg': 0.03153529363724786, 'colsample_bylevel': 0.39915403963172175, 'min_data_in_leaf': 87}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:02:25,867] Trial 67 finished with value: 0.5601137981600242 and parameters: {'learning_rate': 0.008516933521624831, 'depth': 10, 'l2_leaf_reg': 0.038457977960214225, 'colsample_bylevel': 0.6762851961478872, 'min_data_in_leaf': 99}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:03:19,620] Trial 68 finished with value: 0.5677629239888969 and parameters: {'learning_rate': 0.005096915659702873, 'depth': 10, 'l2_leaf_reg': 0.03771360403464393, 'colsample_bylevel': 0.6671174462350588, 'min_data_in_leaf': 55}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:04:31,994] Trial 69 finished with value: 0.5624849628839826 and parameters: {'learning_rate': 0.014634426548223948, 'depth': 9, 'l2_leaf_reg': 0.017803481199776296, 'colsample_bylevel': 0.7781362343735954, 'min_data_in_leaf': 16}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:05:27,453] Trial 70 finished with value: 0.5576411479865387 and parameters: {'learning_rate': 0.00883868352557672, 'depth': 10, 'l2_leaf_reg': 0.01384602096275753, 'colsample_bylevel': 0.6952051494762134, 'min_data_in_leaf': 100}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:06:23,562] Trial 71 finished with value: 0.5611694071847707 and parameters: {'learning_rate': 0.008037536198980899, 'depth': 10, 'l2_leaf_reg': 0.013439986456644999, 'colsample_bylevel': 0.706089332772307, 'min_data_in_leaf': 99}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:07:15,379] Trial 72 finished with value: 0.5732375436196895 and parameters: {'learning_rate': 0.003662414155085669, 'depth': 10, 'l2_leaf_reg': 0.01123446560024427, 'colsample_bylevel': 0.6154212977061118, 'min_data_in_leaf': 96}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:08:34,086] Trial 73 finished with value: 0.5654650999968339 and parameters: {'learning_rate': 0.009357583442174302, 'depth': 9, 'l2_leaf_reg': 0.014779417129875948, 'colsample_bylevel': 0.672198307534386, 'min_data_in_leaf': 91}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:09:33,453] Trial 74 finished with value: 0.5665254076451355 and parameters: {'learning_rate': 0.022745467641786143, 'depth': 10, 'l2_leaf_reg': 0.024492669114906173, 'colsample_bylevel': 0.744481016529182, 'min_data_in_leaf': 95}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:10:42,055] Trial 75 finished with value: 0.5622853960042811 and parameters: {'learning_rate': 0.012319894103129154, 'depth': 9, 'l2_leaf_reg': 0.019956981140379627, 'colsample_bylevel': 0.8403092324746749, 'min_data_in_leaf': 87}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:11:31,536] Trial 76 finished with value: 0.5638852565260968 and parameters: {'learning_rate': 0.00602406047581477, 'depth': 10, 'l2_leaf_reg': 0.03930699245764566, 'colsample_bylevel': 0.5659413476075101, 'min_data_in_leaf': 28}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:12:23,587] Trial 77 finished with value: 0.5633021438734898 and parameters: {'learning_rate': 0.007454117911347012, 'depth': 10, 'l2_leaf_reg': 0.016778844529840495, 'colsample_bylevel': 0.6041061148560622, 'min_data_in_leaf': 41}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:13:39,575] Trial 78 finished with value: 0.5643052505445133 and parameters: {'learning_rate': 0.009162226994059334, 'depth': 9, 'l2_leaf_reg': 0.026975897789220524, 'colsample_bylevel': 0.6873422333622956, 'min_data_in_leaf': 32}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:14:42,645] Trial 79 finished with value: 0.5602495307132905 and parameters: {'learning_rate': 0.031117902433838815, 'depth': 10, 'l2_leaf_reg': 0.014429478377546316, 'colsample_bylevel': 0.8201251037570791, 'min_data_in_leaf': 46}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:15:48,054] Trial 80 finished with value: 0.56289981674459 and parameters: {'learning_rate': 0.02699529700403885, 'depth': 10, 'l2_leaf_reg': 0.01332158561730506, 'colsample_bylevel': 0.9657537434986047, 'min_data_in_leaf': 83}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:16:49,654] Trial 81 finished with value: 0.5612084434799266 and parameters: {'learning_rate': 0.0339130669185535, 'depth': 10, 'l2_leaf_reg': 0.01427901445861075, 'colsample_bylevel': 0.8149988006806091, 'min_data_in_leaf': 45}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:17:55,419] Trial 82 finished with value: 0.5647394878876071 and parameters: {'learning_rate': 0.03146119155571709, 'depth': 10, 'l2_leaf_reg': 0.04648712995872345, 'colsample_bylevel': 0.9548603881681186, 'min_data_in_leaf': 54}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:18:48,988] Trial 83 finished with value: 0.5622426746011011 and parameters: {'learning_rate': 0.01088292626232366, 'depth': 10, 'l2_leaf_reg': 0.015186727326232422, 'colsample_bylevel': 0.6422042750537372, 'min_data_in_leaf': 50}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:19:46,453] Trial 84 finished with value: 0.5646554636708689 and parameters: {'learning_rate': 0.0366678313435473, 'depth': 10, 'l2_leaf_reg': 0.018331787691766455, 'colsample_bylevel': 0.7224104973279355, 'min_data_in_leaf': 59}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:19:54,089] Trial 85 finished with value: 0.5733727689161325 and parameters: {'learning_rate': 0.02454233013440107, 'depth': 6, 'l2_leaf_reg': 0.021527291445184747, 'colsample_bylevel': 0.5753678360823616, 'min_data_in_leaf': 98}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:21:07,188] Trial 86 finished with value: 0.5601925704165516 and parameters: {'learning_rate': 0.020287594504183864, 'depth': 9, 'l2_leaf_reg': 0.012377013652954863, 'colsample_bylevel': 0.7665045571256421, 'min_data_in_leaf': 18}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:22:20,534] Trial 87 finished with value: 0.5589858799701825 and parameters: {'learning_rate': 0.012732713880573393, 'depth': 9, 'l2_leaf_reg': 0.011734170615365939, 'colsample_bylevel': 0.7727742788091103, 'min_data_in_leaf': 18}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:23:06,860] Trial 88 finished with value: 0.5623010531993552 and parameters: {'learning_rate': 0.012817100060564916, 'depth': 8, 'l2_leaf_reg': 0.010340250691564367, 'colsample_bylevel': 0.7618194065293161, 'min_data_in_leaf': 13}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:24:18,972] Trial 89 finished with value: 0.5596010026622259 and parameters: {'learning_rate': 0.018153932668696433, 'depth': 9, 'l2_leaf_reg': 0.01144073662069977, 'colsample_bylevel': 0.788665354878976, 'min_data_in_leaf': 19}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:25:23,881] Trial 90 finished with value: 0.5617793727688258 and parameters: {'learning_rate': 0.015671210912114954, 'depth': 9, 'l2_leaf_reg': 0.011031314160083384, 'colsample_bylevel': 0.8889476921058153, 'min_data_in_leaf': 5}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:26:37,300] Trial 91 finished with value: 0.5619506652763732 and parameters: {'learning_rate': 0.01836679812286838, 'depth': 9, 'l2_leaf_reg': 0.011953548096052511, 'colsample_bylevel': 0.7646662177663928, 'min_data_in_leaf': 19}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:27:50,457] Trial 92 finished with value: 0.5650483867450844 and parameters: {'learning_rate': 0.021328677461282124, 'depth': 9, 'l2_leaf_reg': 0.012838062123668354, 'colsample_bylevel': 0.7855463820416695, 'min_data_in_leaf': 9}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:28:38,362] Trial 93 finished with value: 0.5670406864140665 and parameters: {'learning_rate': 0.010645308669857873, 'depth': 8, 'l2_leaf_reg': 0.012398647334266195, 'colsample_bylevel': 0.7039858716753269, 'min_data_in_leaf': 23}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:29:57,134] Trial 94 finished with value: 0.5572027678033519 and parameters: {'learning_rate': 0.01938593009743633, 'depth': 9, 'l2_leaf_reg': 0.010747298377521749, 'colsample_bylevel': 0.6506695630685297, 'min_data_in_leaf': 14}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:31:13,688] Trial 95 finished with value: 0.5623846229515465 and parameters: {'learning_rate': 0.01462208037526864, 'depth': 9, 'l2_leaf_reg': 0.01082241576782709, 'colsample_bylevel': 0.6619627614411929, 'min_data_in_leaf': 11}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:31:19,013] Trial 96 finished with value: 0.592022807656693 and parameters: {'learning_rate': 0.008662344511060523, 'depth': 4, 'l2_leaf_reg': 0.011767723881426984, 'colsample_bylevel': 0.6260393906338035, 'min_data_in_leaf': 15}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:32:11,189] Trial 97 finished with value: 0.5959200075544265 and parameters: {'learning_rate': 0.0014447845213233902, 'depth': 10, 'l2_leaf_reg': 0.01056382095820618, 'colsample_bylevel': 0.6075203921261942, 'min_data_in_leaf': 21}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:32:30,306] Trial 98 finished with value: 0.5642212258349972 and parameters: {'learning_rate': 0.01599408050888881, 'depth': 7, 'l2_leaf_reg': 0.01152078225891954, 'colsample_bylevel': 0.7422920634807627, 'min_data_in_leaf': 25}. Best is trial 52 with value: 0.5564074254399323.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 14:33:19,770] Trial 99 finished with value: 0.5642460585716843 and parameters: {'learning_rate': 0.013227645448099184, 'depth': 8, 'l2_leaf_reg': 0.013829215937394834, 'colsample_bylevel': 0.6515423880195077, 'min_data_in_leaf': 7}. Best is trial 52 with value: 0.5564074254399323.
+Best hyperparameters: {'learning_rate': 0.027115288423799528, 'depth': 10, 'l2_leaf_reg': 0.01569551387044925, 'colsample_bylevel': 0.6038935914829812, 'min_data_in_leaf': 20}
+Best RMSE: 0.5564074254399323

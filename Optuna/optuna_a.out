@@ -1,0 +1,278 @@
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:121: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Normalized Difference Green/Red'] = (b3 - b4) / (b3 + b4)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:122: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Normalized Difference NIR/Blue'] = (b8 - b2) / (b8 + b2)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:123: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Normalized Difference NIR/Green'] = (b8 - b3) / (b8 + b3)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:124: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Normalized Difference NIR/Red'] = (b8 - b4) / (b8 + b4)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:125: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Normalized Difference NIR/Rededge'] = (b8 - b5) / (b8 + b5)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:126: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Normalized Difference Red/Green'] = (b4 - b3) / (b4 + b3)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:127: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Normalized Difference Salinity Index'] = (b11 - b12) / (b11 + b12)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:128: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Normalized Difference Vegetation Index 690-710'] = (b8 - b5) / (b8 + b5)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:129: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Optimized Soil Adjusted Vegetation Index'] = (1 + 0.16) * (b8 - b4) / (b8 + b4 + 0.16)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:130: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Pan NDVI'] = (b8 - (b3 + b4 + b2)) / (b8 + (b3 + b4 + b2))
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:131: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['RDVI'] = (b8 - b4) / ((b8 + b4).pow(0.5))
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:132: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['RDVI2'] = (b8 - b4) / ((b8 + b4).pow(0.5))
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:133: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Red edge 1'] = b5 / b4
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:134: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Red edge 2'] = (b5 - b4) / (b5 + b4)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:135: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Red-Blue NDVI'] = (b8 - (b4 + b2)) / (b8 + (b4 + b2))
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:136: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Red-Edge Inflection Point 1'] = 700 + 40 * ((((b4 + b7) / 2) - b5) / (b6 - b5))
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:137: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Red-Edge Inflection Point 2'] = 702 + 40 * ((((b4 + b7) / 2) - b5) / (b6 - b5))
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:138: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Red-Edge Inflection Point 3'] = 705 + 35 * ((((b4 + b7) / 2) - b5) / (b6 - b5))
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:139: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Red-Edge Position Linear Interpolation'] = 700 + 40 * ((((b4 + b7) / 2) - b5) / (b6 - b5))
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:140: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Reflectance at the inflexion point'] = (b4 + b7) / 2
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:141: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Renormalized Difference Vegetation Index'] = (b8 - b4) / ((b8 + b4).pow(0.5))
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:142: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 1600/820'] = b11 / b8
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:143: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 1650/2218'] = b11 / b12
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:144: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 440/740'] = b1 / b6
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:145: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 450/550'] = b1 / b3
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:146: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 520/670'] = b2 / b4
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:147: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 550/800'] = b3 / b8
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:148: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 560/658'] = b3 / b4
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:149: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 675/555'] = b4 / b3
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:150: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 675/705'] = b4 / b5
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:151: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 700'] = 1 / b5
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:152: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 710/670'] = b5 / b4
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:153: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 735/710'] = b6 / b5
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:154: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 774/677'] = b7 / b4
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:155: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 800/2170'] = b8 / b12
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:156: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 800/500'] = b8 / b2
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:157: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 810/560'] = b8 / b3
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:158: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 833/1649'] = b8 / b11
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:159: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 833/658'] = b8 / b4
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:160: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 850/710'] = b8 / b5
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:161: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 860/550'] = b8a / b3
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:162: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio 860/708'] = b8a / b5
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:163: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio NIR/700-715'] = b8 / b5
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:164: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio NIR/G'] = b8 / b3
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio NIR/RED'] = b8 / b4
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:166: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio NIR/Rededge'] = b8 / b5
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:167: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio Red/Blue'] = b4 / b2
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:168: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio Red/Green'] = b4 / b3
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:169: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Simple Ratio Red/NIR'] = b4 / b8
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:170: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Soil Adjusted Vegetation Index'] = (b8 - b4) / (b8 + b4 + 0.48) * (1 + 0.48)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:171: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['SQRT(IR/R)'] = (b8 / b4).pow(0.5)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:172: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Structure Intensive Pigment Index 1'] = (b8 - b1) / (b8 - b4)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:173: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Structure Intensive Pigment Index 3'] = (b8 - b2) / (b8 - b4)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:174: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['TCARI/OSAVI'] = (3 * ((b5 - b4) - (0.2 * (b5 - b3) * (b5 / b4)))) / ((1 + 0.16) * ((b8 - b4)/(b8 + b4 + 0.16)))
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:175: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Transformed Chlorophyll Absorbtion Ratio'] = 3 * ((b5 - b4) - (0.2 * (b5 - b3) * (b5 / b4)))
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:176: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Transformed NDVI'] = ((b8 - b4) / (b8 + b4) + 0.5).pow(0.5)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:177: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Triangular chlorophyll index'] = 1.2 * (b5 - b3) - 1.5 * (b4 - b3) * (b5 / b4).pow(0.5)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:178: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Vegetation Index 700'] = (b5 - b4) / (b5 + b4)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:179: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Visible Atmospherically Resistant Index Green'] = (b3 - b4) / (b3 + b4 + b2)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:180: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Visible Atmospherically Resistant Indices RedEdge'] = (b5 - b4) / (b5 + b4)
+/lustrefs/disk/project/lt900293-ai24th/Optuna/optuna_a.py:181: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  train_df['Wide Dynamic Range Vegetation Index'] = (0.1 * b8 - b4) / (0.1 * b8 + b4)
+[I 2024-06-06 11:29:31,511] A new study created in memory with name: no-name-c539194f-1cfe-4422-a577-bd845e49c2b1
+TBB Warning: The number of workers is currently limited to 15. The request for 63 workers is ignored. Further requests for more workers will be silently ignored until the limit changes.
+
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:36:13,054] Trial 0 finished with value: 0.5501065706311913 and parameters: {'learning_rate': 0.01041094464122008, 'depth': 9, 'l2_leaf_reg': 0.01833869405240519, 'colsample_bylevel': 0.584658409233654, 'min_data_in_leaf': 20}. Best is trial 0 with value: 0.5501065706311913.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:39:59,717] Trial 1 finished with value: 0.574913172370141 and parameters: {'learning_rate': 0.0026636197390879886, 'depth': 8, 'l2_leaf_reg': 0.052423132612692824, 'colsample_bylevel': 0.3467678499675099, 'min_data_in_leaf': 36}. Best is trial 0 with value: 0.5501065706311913.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:44:05,627] Trial 2 finished with value: 0.5486304868788474 and parameters: {'learning_rate': 0.01115506936963222, 'depth': 9, 'l2_leaf_reg': 0.06766563436192105, 'colsample_bylevel': 0.26301372436334886, 'min_data_in_leaf': 10}. Best is trial 2 with value: 0.5486304868788474.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:45:55,968] Trial 3 finished with value: 0.5573174556261048 and parameters: {'learning_rate': 0.07110330954325263, 'depth': 8, 'l2_leaf_reg': 0.03399297178844418, 'colsample_bylevel': 0.9891825210800708, 'min_data_in_leaf': 90}. Best is trial 2 with value: 0.5486304868788474.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:46:56,125] Trial 4 finished with value: 0.5535214232944833 and parameters: {'learning_rate': 0.013501422616716751, 'depth': 10, 'l2_leaf_reg': 0.010532201414978912, 'colsample_bylevel': 0.11832363454380243, 'min_data_in_leaf': 9}. Best is trial 2 with value: 0.5486304868788474.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:47:01,288] Trial 5 finished with value: 0.6197144967654886 and parameters: {'learning_rate': 0.0021666182927591775, 'depth': 2, 'l2_leaf_reg': 0.020086150653235692, 'colsample_bylevel': 0.36390454922377424, 'min_data_in_leaf': 94}. Best is trial 2 with value: 0.5486304868788474.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:47:05,111] Trial 6 finished with value: 0.644199380335958 and parameters: {'learning_rate': 0.0021704653966755183, 'depth': 1, 'l2_leaf_reg': 0.01625935499421606, 'colsample_bylevel': 0.3223736516945168, 'min_data_in_leaf': 83}. Best is trial 2 with value: 0.5486304868788474.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:49:29,207] Trial 7 finished with value: 0.550545847382972 and parameters: {'learning_rate': 0.012243507671679553, 'depth': 10, 'l2_leaf_reg': 0.04715439053404509, 'colsample_bylevel': 0.8009392663629277, 'min_data_in_leaf': 39}. Best is trial 2 with value: 0.5486304868788474.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:49:33,305] Trial 8 finished with value: 0.609763763504594 and parameters: {'learning_rate': 0.006077867101680301, 'depth': 2, 'l2_leaf_reg': 0.013163653431738321, 'colsample_bylevel': 0.0791023909440017, 'min_data_in_leaf': 53}. Best is trial 2 with value: 0.5486304868788474.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:51:46,558] Trial 9 finished with value: 0.5766975401997899 and parameters: {'learning_rate': 0.0027077737516990716, 'depth': 8, 'l2_leaf_reg': 0.011547077992385945, 'colsample_bylevel': 0.179984488805019, 'min_data_in_leaf': 86}. Best is trial 2 with value: 0.5486304868788474.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:52:41,276] Trial 10 finished with value: 0.5563582703590967 and parameters: {'learning_rate': 0.04037204734623255, 'depth': 5, 'l2_leaf_reg': 0.09548611125613712, 'colsample_bylevel': 0.5825878859758766, 'min_data_in_leaf': 1}. Best is trial 2 with value: 0.5486304868788474.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:54:15,455] Trial 11 finished with value: 0.553512323273829 and parameters: {'learning_rate': 0.028034897556785548, 'depth': 6, 'l2_leaf_reg': 0.09326972445084082, 'colsample_bylevel': 0.6103471585346781, 'min_data_in_leaf': 20}. Best is trial 2 with value: 0.5486304868788474.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:55:05,944] Trial 12 finished with value: 0.5657580380484063 and parameters: {'learning_rate': 0.008151162881155381, 'depth': 5, 'l2_leaf_reg': 0.023080469994529156, 'colsample_bylevel': 0.472662528244681, 'min_data_in_leaf': 22}. Best is trial 2 with value: 0.5486304868788474.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:57:36,171] Trial 13 finished with value: 0.5635625443488153 and parameters: {'learning_rate': 0.00496983871986837, 'depth': 7, 'l2_leaf_reg': 0.06221683463518545, 'colsample_bylevel': 0.7403681480784489, 'min_data_in_leaf': 61}. Best is trial 2 with value: 0.5486304868788474.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 11:58:58,662] Trial 14 finished with value: 0.5450618032241417 and parameters: {'learning_rate': 0.02469147543829647, 'depth': 10, 'l2_leaf_reg': 0.0315775775719611, 'colsample_bylevel': 0.2507721914805017, 'min_data_in_leaf': 21}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:00:19,507] Trial 15 finished with value: 0.5521135555832503 and parameters: {'learning_rate': 0.022520391016331954, 'depth': 10, 'l2_leaf_reg': 0.03226930877607886, 'colsample_bylevel': 0.23072564791064737, 'min_data_in_leaf': 35}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:00:29,738] Trial 16 finished with value: 0.5760306327402233 and parameters: {'learning_rate': 0.08180104091796522, 'depth': 4, 'l2_leaf_reg': 0.06839433845572254, 'colsample_bylevel': 0.25670967310084064, 'min_data_in_leaf': 2}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:06:14,727] Trial 17 finished with value: 0.5501819712075113 and parameters: {'learning_rate': 0.01844566329751361, 'depth': 9, 'l2_leaf_reg': 0.02594960213842831, 'colsample_bylevel': 0.4216113674985408, 'min_data_in_leaf': 70}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:07:31,506] Trial 18 finished with value: 0.5558586815614788 and parameters: {'learning_rate': 0.046435916814838364, 'depth': 7, 'l2_leaf_reg': 0.04239316052902731, 'colsample_bylevel': 0.17474524269443137, 'min_data_in_leaf': 13}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:11:52,269] Trial 19 finished with value: 0.5605823902582635 and parameters: {'learning_rate': 0.004000932002754075, 'depth': 9, 'l2_leaf_reg': 0.07153718687644443, 'colsample_bylevel': 0.27748147099601106, 'min_data_in_leaf': 29}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:12:23,150] Trial 20 finished with value: 0.5595872678511417 and parameters: {'learning_rate': 0.035037528978748435, 'depth': 7, 'l2_leaf_reg': 0.04064391286712641, 'colsample_bylevel': 0.0527352003841311, 'min_data_in_leaf': 48}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:18:48,991] Trial 21 finished with value: 0.5499218905525054 and parameters: {'learning_rate': 0.008726075070808215, 'depth': 9, 'l2_leaf_reg': 0.01867348399587646, 'colsample_bylevel': 0.5293136889514298, 'min_data_in_leaf': 16}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:24:57,188] Trial 22 finished with value: 0.5496093719299283 and parameters: {'learning_rate': 0.018284741571968723, 'depth': 9, 'l2_leaf_reg': 0.026451939862984518, 'colsample_bylevel': 0.48280805204179256, 'min_data_in_leaf': 11}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:26:41,803] Trial 23 finished with value: 0.5517585831159092 and parameters: {'learning_rate': 0.018366638266920338, 'depth': 10, 'l2_leaf_reg': 0.029892137475550914, 'colsample_bylevel': 0.42368277603244264, 'min_data_in_leaf': 7}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:31:24,336] Trial 24 finished with value: 0.5951850330129423 and parameters: {'learning_rate': 0.0011527759410463261, 'depth': 8, 'l2_leaf_reg': 0.025056865172845135, 'colsample_bylevel': 0.6971131317731818, 'min_data_in_leaf': 26}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:34:14,060] Trial 25 finished with value: 0.5602832042714313 and parameters: {'learning_rate': 0.05745221243515533, 'depth': 9, 'l2_leaf_reg': 0.0374291794477154, 'colsample_bylevel': 0.15632829580518323, 'min_data_in_leaf': 11}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:35:34,702] Trial 26 finished with value: 0.5552934746635904 and parameters: {'learning_rate': 0.015866186621212926, 'depth': 6, 'l2_leaf_reg': 0.05445054975737765, 'colsample_bylevel': 0.42530307062278977, 'min_data_in_leaf': 44}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:37:04,178] Trial 27 finished with value: 0.5466965622600068 and parameters: {'learning_rate': 0.024247462597940285, 'depth': 10, 'l2_leaf_reg': 0.02790833047300521, 'colsample_bylevel': 0.30278101869481944, 'min_data_in_leaf': 29}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:38:25,699] Trial 28 finished with value: 0.552310554046863 and parameters: {'learning_rate': 0.02755985842366519, 'depth': 10, 'l2_leaf_reg': 0.0780872565118713, 'colsample_bylevel': 0.2306363833375387, 'min_data_in_leaf': 32}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:39:53,910] Trial 29 finished with value: 0.5511054749151314 and parameters: {'learning_rate': 0.010779789809507738, 'depth': 10, 'l2_leaf_reg': 0.02196165993236543, 'colsample_bylevel': 0.2982948817084459, 'min_data_in_leaf': 26}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:40:08,184] Trial 30 finished with value: 0.5853794398226067 and parameters: {'learning_rate': 0.09779622107787525, 'depth': 4, 'l2_leaf_reg': 0.015078064470401116, 'colsample_bylevel': 0.3513598622165375, 'min_data_in_leaf': 17}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:46:33,515] Trial 31 finished with value: 0.5507013001318215 and parameters: {'learning_rate': 0.02495052688785028, 'depth': 9, 'l2_leaf_reg': 0.027510100004700774, 'colsample_bylevel': 0.5243512745742372, 'min_data_in_leaf': 22}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:50:35,486] Trial 32 finished with value: 0.5537602374710194 and parameters: {'learning_rate': 0.007002828991186175, 'depth': 8, 'l2_leaf_reg': 0.03349802994053584, 'colsample_bylevel': 0.3872687459780757, 'min_data_in_leaf': 6}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:56:50,009] Trial 33 finished with value: 0.5525760494551608 and parameters: {'learning_rate': 0.033703464602197905, 'depth': 9, 'l2_leaf_reg': 0.02816427510686133, 'colsample_bylevel': 0.4953752696076438, 'min_data_in_leaf': 14}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 12:59:25,159] Trial 34 finished with value: 0.5534221660435212 and parameters: {'learning_rate': 0.0151108040726929, 'depth': 8, 'l2_leaf_reg': 0.03597274089517577, 'colsample_bylevel': 0.22139399114977254, 'min_data_in_leaf': 40}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:02:03,886] Trial 35 finished with value: 0.5524939577947369 and parameters: {'learning_rate': 0.020372110028847153, 'depth': 10, 'l2_leaf_reg': 0.02152559555749641, 'colsample_bylevel': 0.8820456347075205, 'min_data_in_leaf': 7}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:07:06,566] Trial 36 finished with value: 0.5588645046552472 and parameters: {'learning_rate': 0.05221486372759875, 'depth': 9, 'l2_leaf_reg': 0.04457047690210888, 'colsample_bylevel': 0.32438760596368266, 'min_data_in_leaf': 28}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:09:06,671] Trial 37 finished with value: 0.5499127814085503 and parameters: {'learning_rate': 0.011085350331258882, 'depth': 10, 'l2_leaf_reg': 0.051364129653022325, 'colsample_bylevel': 0.5834744106658576, 'min_data_in_leaf': 19}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:10:53,561] Trial 38 finished with value: 0.5518095221494204 and parameters: {'learning_rate': 0.013116996440099974, 'depth': 8, 'l2_leaf_reg': 0.037769742482712636, 'colsample_bylevel': 0.1223646935815576, 'min_data_in_leaf': 100}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:13:05,453] Trial 39 finished with value: 0.5570380416373161 and parameters: {'learning_rate': 0.03053486159359293, 'depth': 7, 'l2_leaf_reg': 0.016912441609792002, 'colsample_bylevel': 0.38699434272751465, 'min_data_in_leaf': 57}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:15:19,521] Trial 40 finished with value: 0.5486208817672349 and parameters: {'learning_rate': 0.01595957833129492, 'depth': 10, 'l2_leaf_reg': 0.03017127704855515, 'colsample_bylevel': 0.6406956588015621, 'min_data_in_leaf': 34}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:17:34,452] Trial 41 finished with value: 0.5483460305843493 and parameters: {'learning_rate': 0.015921880463727677, 'depth': 10, 'l2_leaf_reg': 0.03068083042441455, 'colsample_bylevel': 0.6465881957013784, 'min_data_in_leaf': 35}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:19:50,843] Trial 42 finished with value: 0.5501016162790148 and parameters: {'learning_rate': 0.008485671978110648, 'depth': 10, 'l2_leaf_reg': 0.03142075824160167, 'colsample_bylevel': 0.6927639012806202, 'min_data_in_leaf': 36}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:22:07,859] Trial 43 finished with value: 0.5490491133859288 and parameters: {'learning_rate': 0.012884617049478136, 'depth': 10, 'l2_leaf_reg': 0.02372346226125303, 'colsample_bylevel': 0.6376528018384402, 'min_data_in_leaf': 44}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:24:33,758] Trial 44 finished with value: 0.5522518960065841 and parameters: {'learning_rate': 0.022150295837635968, 'depth': 10, 'l2_leaf_reg': 0.030441719301856324, 'colsample_bylevel': 0.7635313235306094, 'min_data_in_leaf': 33}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:31:54,242] Trial 45 finished with value: 0.5507591764934735 and parameters: {'learning_rate': 0.03892759316204812, 'depth': 9, 'l2_leaf_reg': 0.019394438367077643, 'colsample_bylevel': 0.847203126920564, 'min_data_in_leaf': 41}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:33:58,677] Trial 46 finished with value: 0.5496239076749628 and parameters: {'learning_rate': 0.0061946514361255365, 'depth': 10, 'l2_leaf_reg': 0.034979571051557974, 'colsample_bylevel': 0.5537576812668747, 'min_data_in_leaf': 22}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:34:03,837] Trial 47 finished with value: 0.6104235131981853 and parameters: {'learning_rate': 0.015521706441445638, 'depth': 1, 'l2_leaf_reg': 0.04759573765945067, 'colsample_bylevel': 0.7233019227332217, 'min_data_in_leaf': 31}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:38:56,835] Trial 48 finished with value: 0.5509840799492686 and parameters: {'learning_rate': 0.0094228900404111, 'depth': 8, 'l2_leaf_reg': 0.058888250085570866, 'colsample_bylevel': 0.6242266482542921, 'min_data_in_leaf': 24}. Best is trial 14 with value: 0.5450618032241417.
+/home/ai4062/.local/lib/python3.10/site-packages/sklearn/metrics/_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-06-06 13:39:03,528] Trial 49 finished with value: 0.6038248530635294 and parameters: {'learning_rate': 0.0044301423788157416, 'depth': 2, 'l2_leaf_reg': 0.03978407788022108, 'colsample_bylevel': 0.6603253183025859, 'min_data_in_leaf': 37}. Best is trial 14 with value: 0.5450618032241417.
+Best hyperparameters: {'learning_rate': 0.02469147543829647, 'depth': 10, 'l2_leaf_reg': 0.0315775775719611, 'colsample_bylevel': 0.2507721914805017, 'min_data_in_leaf': 21}
+Best RMSE: 0.5450618032241417
